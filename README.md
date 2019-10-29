@@ -7,21 +7,30 @@ The template matching methods are commonly applied to extract the road network i
 # Dataset
 We use <a href='http://www.cs.toronto.edu/~vmnih/data/'>Massachusetts Roads Dataset</a>. 
 
-#Training samples
-To train the road center estimation model, we cut fifty patches with the resolution of 64ⅹ64 from each image in the training set, and finally obtain 55,400 training samples. There are some of our training samples.
-<img src='' width='100%'/>
+#Training Samples
+To train the road center estimation model, we cut fifty patches with the resolution of 64ⅹ64 from each image in the training set, and finally obtain 55,400 training samples. There are some of our training samples. where the ground truths are gaussians center at the road center points shown in cyan. Note that there are some samples without ground truth for no roads inside these patches.
+<img src='resources/trainingsamples.png' width='100%'/>
+
+# Predicting Samples
+Exhibition of more predicted samples, in where the predicted road center points are presented in bold red diamonds. Note that there are some samples without road center points due to none roads in these patches.
+<img src='resources/predictsamples.png' width='100%'/>
 
 # Videos
-<video src='' />
-<video src='' />
+Our algorithm works in a sliding window mode. It is a evolving process step by step. We release some videos to show the trackiing process.
+
+<video src='resources/video2.png' />
+Video 1. A tracking process on a small image cropped from an oringin test image.
+<video src='resources/video1.png' />
+Video 2. A tracking process on the oringin test image.
 
 # Output Visualization
-<img src='' width='100%' />
-<img src='' width='100%' />
-<img src='' width='100%' />
-<img src='' width='100%' />
-<img src='' width='100%' />
-<img src='' width='100%' />
+Exhibition of more road tracking results on the Massachusetts Roads dataset.
+<img src='resources/result1.png' width='100%' />
+<img src='resources/result1.png' width='100%' />
+<img src='resources/result1.png' width='100%' />
+<img src='resources/result1.png' width='100%' />
+<img src='resources/result1.png' width='100%' />
+<img src='resources/result1.png' width='100%' />
 
 # Code
 The source code will be released here soon.
