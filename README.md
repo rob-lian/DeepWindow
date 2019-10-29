@@ -26,14 +26,13 @@ Video 2. A tracking process on the oringin test image.
 
 # Output Visualization
 Exhibition of some road tracking results on the Massachusetts Roads dataset.
-<p>
-<img src='resources/tracking1.png' width='100%' />
-<img src='resources/tracking2.png' width='100%' />
-<img src='resources/tracking3.png' width='100%' />
-<img src='resources/tracking4.png' width='100%' />
-<img src='resources/tracking5.png' width='100%' />
-<img src='resources/tracking6.png' width='100%' />
-<img src='resources/tracking7.png' width='100%' />
+<p><a href='resources/tracking1.png'>tracking1.png</a></p>
+<p><a href='resources/tracking2.png'>tracking2.png</a></p>
+<p><a href='resources/tracking3.png'>tracking3.png</a></p>
+<p><a href='resources/tracking4.png'>tracking4.png</a></p>
+<p><a href='resources/tracking5.png'>tracking5.png</a></p>
+<p><a href='resources/tracking6.png'>tracking6.png</a></p>
+<p><a href='resources/tracking7.png'>tracking7.png</a></p>
 
 # Code
 The source code will be released here soon.
