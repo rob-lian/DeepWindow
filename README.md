@@ -34,7 +34,6 @@ Exhibition of some road tracking results on the Massachusetts Roads dataset.
 <img src='resources/tracking5.png' width='100%' />
 <img src='resources/tracking6.png' width='100%' />
 <img src='resources/tracking7.png' width='100%' />
-<img src='resources/tracking8.png' width='100%' />
 
 # Code
 The source code will be released here soon.
