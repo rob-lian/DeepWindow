@@ -18,19 +18,26 @@ Exhibition of more predicted samples, in where the predicted road center points 
 # Videos
 Our algorithm works in a sliding window mode. It is a evolving process step by step. We release some videos to show the trackiing process.
 
-<video src='resources/video2.png' />
+<video src='resources/video2.mp4' />
 Video 1. A tracking process on a small image cropped from an oringin test image.
-<video src='resources/video1.png' />
+<video src='resources/video1.mp4' />
 Video 2. A tracking process on the oringin test image.
 
 # Output Visualization
-Exhibition of more road tracking results on the Massachusetts Roads dataset.
+Exhibition of some road tracking results on the Massachusetts Roads dataset.
+<p>
+<img src='resources/result10.png' width='100%' />
+<img src='resources/result11.png' width='100%' />
+<img src='resources/result12.png' width='100%' />
 <img src='resources/result1.png' width='100%' />
-<img src='resources/result1.png' width='100%' />
-<img src='resources/result1.png' width='100%' />
-<img src='resources/result1.png' width='100%' />
-<img src='resources/result1.png' width='100%' />
-<img src='resources/result1.png' width='100%' />
+<img src='resources/result2.png' width='100%' />
+<img src='resources/result3.png' width='100%' />
+<img src='resources/result4.png' width='100%' />
+<img src='resources/result5.png' width='100%' />
+<img src='resources/result6.png' width='100%' />
+<img src='resources/result7.png' width='100%' />
+<img src='resources/result8.png' width='100%' />
+<img src='resources/result9.png' width='100%' />
 
 # Code
 The source code will be released here soon.
