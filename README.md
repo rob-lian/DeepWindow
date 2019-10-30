@@ -17,12 +17,10 @@ Exhibition of more predicted samples, in where the predicted road center points 
 <img src='resources/predictsamples.png' width='100%'/>
 
 # Videos
-Our algorithm works in a sliding window mode. It is a evolving process step by step. We release some videos to show the trackiing process.
+Our algorithm works in a sliding window mode. It is a evolving process step by step. We release a video to show the trackiing process.
 
-<video src='resources/video2.mp4' />
-Video 1. A tracking process on a small image cropped from an oringin test image.
-<video src='resources/video1.mp4' />
-Video 2. A tracking process on the oringin test image.
+<video src='resources/002-3.mp4' width='100%'/>
+Video 1. A tracking process on a test image.
 
 # Output Visualization
 Exhibition of some road tracking results on the Massachusetts Roads dataset.
