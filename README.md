@@ -17,7 +17,7 @@ Exhibition of more predicted samples, in where the predicted road center points 
 <img src='resources/predictsamples.png' width='100%'/>
 
 # Videos
-Our algorithm works in a sliding window mode. It is a evolving process step by step. We release a video to show the tracking process.
+Our algorithm works in a sliding window mode. It is an evolving process step by step. We release a video to show the tracking process.
 
 <a href='resources/002-3.mp4?raw=true'/>Video 1. A tracking process on a test image.(click here)</a>
 
