@@ -21,7 +21,7 @@ Our algorithm works in a sliding window mode. It is a evolving process step by s
 
 <video src='https://github.com/rob-lian/DeepWindow/blob/master/resources/002-3.mp4?raw=true' width='100%' />
 
-<a href='resources/002-3.mp4'/>Video 1. A tracking process on a test image.(right click here and save)</a>
+<a href='resources/002-3.mp4?raw=true'/>Video 1. A tracking process on a test image.(right click here and save)</a>
 
 
 # Output Visualization
