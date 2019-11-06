@@ -6,20 +6,20 @@ The template matching methods are commonly applied to extract the road network i
   </p>
 
 # Dataset
-We use <a href='http://www.cs.toronto.edu/~vmnih/data/'>Massachusetts Roads Dataset</a>. 
+We use <a href='http://www.cs.toronto.edu/~vmnih/data/'>Massachusetts Roads Dataset</a> to evaluation the performance of our method. 
 
 # Training Samples
 To train the road center estimation model, we cut fifty patches with the resolution of 64ⅹ64 from each image in the training set, and finally obtain 55,400 training samples. There are some of our training samples. where the ground truths are gaussians center at the road center points shown in cyan. Note that there are some samples without ground truth for no roads inside these patches.
 <img src='resources/trainingsamples.png' width='100%'/>
 
 # Predicting Samples
-Exhibition of more predicted samples, in where the predicted road center points are presented in bold red diamonds. Note that there are some samples without road center points due to none roads in these patches.
+Exhibition of more predicted samples, in which the predicted road center points are presented in bold red diamonds. Note that there are some samples without road center points due to none roads in those patches.
 <img src='resources/predictsamples.png' width='100%'/>
 
 # Videos
 Our algorithm works in a sliding window mode. It is an evolving process step by step. We release a video to show the tracking process.
 
-<a href='resources/002-3.mp4?raw=true'/>Video 1. A tracking process on a test image.(click here)</a>
+<a href='resources/002-3.mp4?raw=true'/>Video 1. A tracking process on a test image (36.5MB).(click here)</a>
 
 
 # Output Visualization
