@@ -31,10 +31,6 @@ Exhibition of more predicted samples, in which the predicted road center points 
 Our algorithm works in a sliding window mode. It is an evolving process step by step. We release a video to show the tracking process.
 
 <a href='resources/002-3.mp4?raw=true'/>Video 1. A tracking process on a test image (36.5MB).(click here)</a>
-<video src="resources/002-3.mp4?raw=true" controls="controls">
-您的浏览器不支持 video 标签。
-</video>
-
 
 # Output Visualization
 Exhibition of some road tracking results on the Massachusetts Roads dataset.
