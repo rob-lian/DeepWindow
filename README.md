@@ -12,6 +12,17 @@ We use <a href='http://www.cs.toronto.edu/~vmnih/data/'>Massachusetts Roads Data
 To train the road center estimation model, we cut fifty patches with the resolution of 64ⅹ64 from each image in the training set, and finally obtain 55,400 training samples. There are some of our training samples. where the ground truths are gaussians center at the road center points shown in cyan. Note that there are some samples without ground truth for no roads inside these patches.
 <img src='resources/trainingsamples.png' width='100%'/>
 
+# Some visual comparisons in training process
+We set the train batch-size to 64. We display some visual comparisons between the prediction map and the groud truth, they are expressed in grid images
+1. Training images
+<img src='resources/training_patches.png' width='100%'>
+2. Ground truth
+<img src='resources/training_gt.png' width='100%'>
+3. prediction visulization
+<img src='resources/training_pred.png' width='100%'>
+
+
+
 # predicted Samples
 Exhibition of more predicted samples, in which the predicted road center points are presented in bold red diamonds. Note that there are some samples without road center points due to none roads in those patches.
 <img src='resources/predictsamples.png' width='100%'/>
