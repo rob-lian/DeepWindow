@@ -42,3 +42,5 @@ Exhibition of some road tracking results on the Massachusetts Roads dataset.
 <p><a href='resources/tracking6.png'>tracking6.png</a></p>
 <p><a href='resources/tracking7.png'>tracking7.png</a></p>
 
+# Source code
+We will release the source code after our paper is published
