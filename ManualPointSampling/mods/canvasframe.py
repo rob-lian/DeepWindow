@@ -7,8 +7,6 @@ from PIL import Image, ImageTk
 import os
 from mods.marker import Marker
 from mods.util import *
-from skimage.morphology import skeletonize
-import networkx as nx
 
 
 class History(object):
