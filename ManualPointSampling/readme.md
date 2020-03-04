@@ -1,7 +1,8 @@
 # A Tool for Manually Sample Road Center Points from Remote Sensing Images
 This tool is written in python3.5, Please install python3.5 or above before running, as well as numpy and PIL
 ## Usage
-### Run main.py, a GUI interface is shown as below
+### Run the program
+Run main.py, a GUI interface is shown as below
 <img alt='Main interface' src='images/main.jpg?raw=true' />
 ### Load an image
 Click File->Load an Image, Select an image which you want to sample points from. The tool is displays the image and shows the grid over the image. The default size of grid is 64 x 64. 
