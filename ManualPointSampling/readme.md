@@ -28,6 +28,7 @@ When you find that some positions are not placed accurately enough, you can fine
 ###Delete points
 When you find that some points are redundant, you can delete them. Operating:move the mouse to the point you want to adjust, the mouse will turn into a hand cursor, and then hold down the left button and drag outside the image.
 ###Generate the sampled patches
-So far, you have just marked on the image which patches are positive samples (the patches with the center of the road) and which are negative samples (the background patches), but the program has not generated these samples. Click File->gen point samples, then you can select a folder to store these trainging samples. We will generate three files for each patch, which are an image slice, a point truth mask image, and a point truth data file. There are samples shown as below
+So far, you have just marked on the image which patches are positive samples (the patches with the center of the road) and which are negative samples (the background patches), but the program has not generated these samples. Click File->gen point samples, then you can select a folder to store these trainging samples. We will generate three files for each patch, which are an image slice, a point truth mask image, and a point truth data file. There are samples shown as below. The Components of file name are image file name, ,road existence, top-left corner coordinate. For example: 10078660_15_r0_0960_0448_img.png, 10078660_15 is the name of the image file from which the patch is cropped, r0 indicates that there is no road in the patch, 0960_0448 indicates that the coordinates of the top-left corner of the patch in the image are (960, 448)
+
 <img alt='samples' src='images/samples.jpg?raw=true' />
 
