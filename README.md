@@ -42,3 +42,12 @@ Exhibition of some road tracking results on the Massachusetts Roads dataset.
 <p><a href='resources/tracking6.png'>tracking6.png</a></p>
 <p><a href='resources/tracking7.png'>tracking7.png</a></p>
 
+If our work has any inspiration for your research, please cite this our paper:
+@ARTICLE{9072518,
+  author={R. {Lian} and L. {Huang}},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  title={DeepWindow: Sliding Window Based on Deep Learning for Road Extraction From Remote Sensing Images}, 
+  year={2020},
+  volume={13},
+  number={},
+  pages={1905-1916},}
