@@ -43,6 +43,7 @@ Exhibition of some road tracking results on the Massachusetts Roads dataset.
 <p><a href='resources/tracking7.png'>tracking7.png</a></p>
 
 If our work has any inspiration for your research, please cite this our paper:
+<pre>
 @ARTICLE{9072518,
   author={R. {Lian} and L. {Huang}},
   journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
@@ -51,3 +52,4 @@ If our work has any inspiration for your research, please cite this our paper:
   volume={13},
   number={},
   pages={1905-1916},}
+</pre>
