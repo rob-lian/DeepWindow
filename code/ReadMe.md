@@ -28,7 +28,7 @@ There are two scripts with a `__main__` method:
 3. The tracking process will be slower and slower due to the time consuming operation of plot function. You can turn off the variable of visualize_tracing to run the road tracking fast.
 
 ### Output:
-1. The tracking results: When the tracking process completes, a messagebox will be poped up, and the program will save the tracked road network in the folder of `results/output` if you confirm the messagebox. There will be three files saved road mask file, overlay file and road coordinates file named as *_ mask.png、*_ Over.png and*_ gt.npy, respectively.
+1. The tracking results: When the tracking process completes, a messagebox will be poped up, and the program will save the tracked road network in the folder of `results/output` if you confirm the messagebox. There will be three files saved road mask file, overlay file and road coordinates file named as `*_ mask.png`、`*_ Over.png` and `*_ gt.npy`, respectively.
 
 2. The trained weights: The checking point file of the model will be saved in the folder of `results/run`
 
