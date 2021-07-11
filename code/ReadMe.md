@@ -21,14 +21,14 @@ There are two scripts with a `__main__` method:
 2. `road_tracking.py`: This script will trace the road in the test image, and you can observe the tracking process if you turn on the variable of visualize_tracing.
 
 ***Important Note:** 
-1. There is a weights file pretrained previous, which can be used to run the program of road tracking.
+1. There is a weight file pretrained previously, which can be used to run the program of road tracking.
 
 2. The are some training samples in the data directory, which demostrate the format of our training sample. You can generat your own training samples according these samples.
 
-3. The tracking progress will be slower and slower due to the time consuming operation of plot function. You can turn off the variable of visualize_tracing to run the road tracking fast.
+3. The tracking process will be slower and slower due to the time consuming operation of plot function. You can turn off the variable of visualize_tracing to run the road tracking fast.
 
 ### Output:
-1. The tracking results: When the tracking process complete, a messagebox will be poped up, and the program will save the tracked road network in the folder of `results/output`  if you confirm the messagebox. There will be three files saved road mask file, overlay file and road coordinates file named *_ mask.png、*_ Over.png and*_ gt.npy, respectively.
+1. The tracking results: When the tracking process completes, a messagebox will be poped up, and the program will save the tracked road network in the folder of `results/output` if you confirm the messagebox. There will be three files saved road mask file, overlay file and road coordinates file named as *_ mask.png、*_ Over.png and*_ gt.npy, respectively.
 
 2. The trained weights: The checking point file of the model will be saved in the folder of `results/run`
 
@@ -53,12 +53,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 If our work has any inspiration for your research, please cite this our paper:
 
 <pre>
-@ARTICLE{9072518,
-  author={R. {Lian} and L. {Huang}},
-  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
-  title={DeepWindow: Sliding Window Based on Deep Learning for Road Extraction From Remote Sensing Images}, 
-  year={2020},
+@article{lian2020deepwindow,
+  title={DeepWindow: Sliding window based on deep learning for road extraction from remote sensing images},
+  author={Lian, Renbao and Huang, Liqin},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
   volume={13},
-  number={},
-  pages={1905-1916},}
+  pages={1905--1916},
+  year={2020},
+  publisher={IEEE}
+}
 </pre>
