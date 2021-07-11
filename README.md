@@ -43,10 +43,7 @@ Exhibition of some road tracking results on the Massachusetts Roads dataset. Cli
 <p><a href='resources/tracking7.png?raw=true'>tracking7.png</a></p>
 
 If our work has any inspiration for your research, please cite this our paper:
-<address>
-It is temporarily unavailable due to the double-blind review of doctoral dissertation. 
-</address>
-<!--
+
 <pre>
 @ARTICLE{9072518,
   author={R. {Lian} and L. {Huang}},
@@ -57,4 +54,3 @@ It is temporarily unavailable due to the double-blind review of doctoral dissert
   number={},
   pages={1905-1916},}
 </pre>
--->
