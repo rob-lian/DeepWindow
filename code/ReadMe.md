@@ -23,7 +23,7 @@ There are two scripts with a `__main__` method:
 ***Important Note:** 
 1. There is a weight file pretrained previously, which can be used to run the program of road tracking.
 
-2. The are some training samples in the data directory, which demostrate the format of our training sample. You can generat your own training samples according these samples using our sampling tool `ManualPointSampling`.
+2. There are some training samples in the data directory, which demostrate the format of our training samples. You can generat your own training samples according these samples using our sampling tool `ManualPointSampling`.
 
 3. The tracking process will be slower and slower due to the time consuming operation of plot function. You can turn off the variable of visualize_tracing to run the road tracking fast.
 
@@ -50,7 +50,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-If our work has any inspiration for your research, please cite this our paper:
+If our work has any inspiration for your research, please cite our paper:
 
 <pre>
 @article{lian2020deepwindow,

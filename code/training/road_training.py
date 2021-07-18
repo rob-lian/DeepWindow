@@ -16,6 +16,7 @@ from training.summaries import TensorboardSummary
 import training.tools as tools
 import glob
 import cv2
+from loss import WCE_loss
 
 # Setting of parameters
 dsname = 'mass'
@@ -72,8 +73,8 @@ nTestInterval = 1  # Run on test set every nTestInterval iterations
 model = "Hourglass"
 [net, p] = BuildNet(model)
 
-# Loss function definition
-criterion = nn.MSELoss(size_average=True, reduce=True)
+# use WCELoss function
+criterion = WCE_loss
 
 # Use the following optimizer
 optimizer = optim.RMSprop(net.parameters(), lr=1e-5, alpha=0.99, momentum=0.0)
